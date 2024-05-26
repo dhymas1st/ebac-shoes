@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f1f1;
+}
+
+header {
+    width: 100%;
+    padding: 16px 0;
+    background-color: #057ed5;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mx-h {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-store {
+    width: 440px;
+    height: 440px;
+    padding-bottom: 32px;
+}
+
+#sobre-a-loja {
+    margin-left: 32px;
+    width: 100%;
+}
+
+#sobre-a-loja p {
+    font-size: 1em;
+    line-height: 1.8em;
+}
+
+.title {
+    font-size: 1.4em;
+    color: #057ed5;
+    font-style: italic;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #057ed5;
+    margin: 20px 0;
+}
+
+section ul li {
+    width: 24%;
+    list-style: none;
+}
+
+section ul li img {
+    max-width: 640px;
+    width: 100%;
+}
+
+section ul li h3 {
+    font-size: 1.4em;
+    margin: 16px 0;
+}
+
+section ul li p {
+    color: #2b2b2b;
+    font-size: 0.8em;
+    margin-bottom: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #057ed5;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .flex {
+        display: block;
+    }
+
+    .container {
+        margin: 0 auto;
+        
+    }
+
+    .img-store {
+        width: 100%;
+        height: auto;
+        padding: 3%;
+    }
+
+    #sobre-a-loja {
+        display: block;
+        width: 100%;
+        padding: 3%;
+        margin-left: 0;
+    }
+
+    h1 {
+        margin-left: 32px;
+    }
+
+    .spacing {
+        padding: 3%;
+    }
+
+    .flex-media {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    section ul li {
+        width: 49%;
+        margin-bottom: 32px;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+    .flex {
+        display: block;
+    }
+
+    .container {
+        margin: 0 auto;
+        
+    }
+
+    .img-store {
+        width: 100%;
+        height: auto;
+        padding: 3%;
+    }
+
+    #sobre-a-loja {
+        display: block;
+        width: 100%;
+        padding: 3%;
+        margin-left: 0;
+    }
+
+    h1 {
+        margin-left: 32px;
+        font-size: 1.4em;
+        width: 2em;
+    }
+
+    .spacing {
+        padding: 3%;
+    }
+
+    .flex-media {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    section ul li {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+}
+
